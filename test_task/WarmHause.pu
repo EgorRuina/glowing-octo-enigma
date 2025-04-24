@@ -53,4 +53,7 @@ Rel(device_management_service, controllers, "API Запрос")
 
 Rel(billing_service, payment_providers, "API Запрос")
 
+Rel(support_service, message_broker, "Чтение")
+Rel(billing_service, controllers, "API Запрос")
+
 @enduml
